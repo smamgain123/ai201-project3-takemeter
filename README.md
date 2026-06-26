@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Error Analysis
 
 The fine-tuned model got 12 out of 29 test examples wrong. A clear pattern was that the model over-predicted `reaction`, likely because `reaction` was the largest class in the dataset.
@@ -30,5 +30,3 @@ This is a hot take because it makes a strong unsupported assumption about the pl
 ### Takeaway
 Most wrong predictions happened because the dataset was imbalanced. The `reaction` label had many more examples than the other labels, so the model learned to predict `reaction` too often. Future improvements would include collecting more `analysis`, `hot_take`, and `question` examples and reviewing borderline labels more carefully.
 =======
-# ai201-project3-takemeter
->>>>>>> abea41f4426c0375466fc17d35b0ecc5bb086cb4
